@@ -1,0 +1,62 @@
+{
+	"java.configuration.runtimes": [
+		{
+			"name": "JavaSE-1.11",
+			"path": "/usr/lib/jvm/java-1.11.0-openjdk-amd64"
+		},
+		{
+			"name": "JavaSE-11",
+			"path": "/usr/lib/jvm/java-11-openjdk-amd64"
+		},
+		{
+			"name": "JavaSE-11",
+			"path": "/usr/lib/jvm/java-11-openjdk-amd64",
+			"default": true
+		}
+	],
+	"html-css-support.enabledLanguages": [
+		"html",
+		"vue",
+		"blade",
+		"htmldjango",
+		"typescriptreact",
+		"javascriptreact"
+	],
+	"html-css-support.styleSheets": [
+		"/styles.css",
+		"styles.css",
+		"css/styles.css"
+	],
+	"coc.preferences.formatOnSaveFiletypes": [
+		"javascript",
+		"json",
+		"css",
+		"scss",
+		"markdown",
+		"html"
+	],
+	"languageserver": {
+		"ccls": {
+			"command": "ccls",
+			"filetypes": [
+				"c",
+				"cc",
+				"cpp",
+				"c++",
+				"objc",
+				"objcpp"
+			],
+			"rootPatterns": [
+				".ccls",
+				"compile_commands.json",
+				".git/",
+				".hg/"
+			],
+			"initializationOptions": {
+				"cache": {
+					"directory": "/tmp/ccls"
+				}
+			}
+		}
+	}
+}
